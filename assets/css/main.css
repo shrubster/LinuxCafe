@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600");
+@import url("Metropolis-Regular");
 /*
 	Industrious by TEMPLATED
 	templated.co @templatedco
@@ -105,7 +105,7 @@ body {
   color: #444444; }
 
 body, input, select, textarea {
-  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-family: 'Metropolis-Regular'
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.65; }
