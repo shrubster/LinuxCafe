@@ -1,4 +1,3 @@
-@import url(font-awesome.min.css);
 @import url(OpenSans-Regular.ttf);
 /*
 	Industrious by TEMPLATED
@@ -9,7 +8,9 @@
 @-ms-viewport {
   width: device-width; }
 body {
-  -ms-overflow-style: scrollbar; }
+  -ms-overflow-style: scrollbar;
+  
+}
 
 @media screen and (max-width: 480px) {
   html, body {
@@ -103,10 +104,22 @@ html {
 body {
   background-color: #ffffff;
   color: #444444; }
+  
+  @font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('OpenSans-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#newfont{
+    font-family:'OpenSans-Regular';
+}
+
+
 
 body, input, select, textarea {
-  font-family: 'Metropolis-Regular'
-  font-weight: 400;
+  font-family: 'OpenSans-Regular';
   font-size: 1rem;
   line-height: 1.65; }
 
@@ -117,7 +130,9 @@ a {
   transition: color 0.2s ease-in-out;
   text-decoration: underline; }
   a:hover {
-    text-decoration: none; }
+    text-decoration: none;
+    color:#666ba0;
+   }
 
 strong, b {
   font-weight: 600; }
@@ -139,7 +154,7 @@ header.special {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   line-height: 1.5;
-  text-transform: uppercase;
+  text-transform: none;
   margin: 0 0 1.5rem 0; }
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     color: inherit;
@@ -195,14 +210,12 @@ blockquote {
 code {
   border-radius: 4px;
   border: solid 1px;
-  font-family: "Courier New", monospace;
   font-size: 0.9rem;
   margin: 0 0.25rem;
   padding: 0.25rem 0.65rem; }
 
 pre {
   -webkit-overflow-scrolling: touch;
-  font-family: "Courier New", monospace;
   font-size: 0.9rem;
   margin: 0 0 2rem 0; }
   pre code {
@@ -455,7 +468,6 @@ input[type="radio"] {
     input[type="radio"] + label:before {
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
-      font-family: FontAwesome;
       font-style: normal;
       font-weight: normal;
       text-transform: none !important; }
@@ -1724,7 +1736,6 @@ ul.actions {
   .icon:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
     text-transform: none !important; }
@@ -1797,7 +1808,7 @@ ul.icons {
 #banner {
   -ms-flex-align: center;
   -ms-flex-pack: center;
-  background-color: #111111;
+  background-color: #222222;
   color: rgba(255, 255, 255, 0.9);
   -moz-align-items: center;
   -webkit-align-items: center;
@@ -1810,11 +1821,12 @@ ul.icons {
   -moz-justify-content: center;
   -webkit-justify-content: center;
   -ms-justify-content: center;
-  justify-content: center;
-  background-image: url("../../images/banner.jpg");
+  justify-content: center; 
+  background-image: linear-gradient(purple, blue);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
+  background-attachment: fixed;
   border-top: 0;
   display: -ms-flexbox;
   height: 35rem !important;
@@ -1822,9 +1834,9 @@ ul.icons {
   overflow: hidden;
   position: relative;
   text-align: center;
-  width: 100%; }
+  width: 100%; } 
   #banner input, #banner select, #banner textarea {
-    color: #ffffff; }
+    color: #ffffff; } 
   #banner a {
     color: #9ba3fa; }
   #banner strong, #banner b {
@@ -1832,7 +1844,7 @@ ul.icons {
   #banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
     color: #ffffff; }
   #banner blockquote {
-    border-left-color: rgba(255, 255, 255, 0.25); }
+    border-left-color: rgba(255, 255, 255, 0.25); } 
   #banner code {
     background: rgba(255, 255, 255, 0.075);
     border-color: rgba(255, 255, 255, 0.25); }
@@ -1901,160 +1913,7 @@ ul.icons {
     #banner select:focus,
     #banner textarea:focus {
       border-color: #9ba3fa;
-      box-shadow: 0 0 0 1px #9ba3fa; }
-  #banner select {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(255, 255, 255, 0.25)' /%3E%3C/svg%3E"); }
-    #banner select option {
-      color: rgba(255, 255, 255, 0.5);
-      background-color: #111111; }
-  #banner input[type="checkbox"] + label,
-  #banner input[type="radio"] + label {
-    color: rgba(255, 255, 255, 0.5); }
-    #banner input[type="checkbox"] + label:before,
-    #banner input[type="radio"] + label:before {
-      background: rgba(255, 255, 255, 0.075);
-      border-color: rgba(255, 255, 255, 0.25); }
-  #banner input[type="checkbox"]:checked + label:before,
-  #banner input[type="radio"]:checked + label:before {
-    background-color: #dddddd;
-    border-color: #dddddd;
-    color: #ffffff; }
-  #banner input[type="checkbox"]:focus + label:before,
-  #banner input[type="radio"]:focus + label:before {
-    border-color: #9ba3fa;
-    box-shadow: 0 0 0 1px #9ba3fa; }
-  #banner ::-webkit-input-placeholder {
-    color: rgba(255, 255, 255, 0.4) !important; }
-  #banner :-moz-placeholder {
-    color: rgba(255, 255, 255, 0.4) !important; }
-  #banner ::-moz-placeholder {
-    color: rgba(255, 255, 255, 0.4) !important; }
-  #banner :-ms-input-placeholder {
-    color: rgba(255, 255, 255, 0.4) !important; }
-  #banner ul.alt li {
-    border-top-color: rgba(255, 255, 255, 0.25); }
-  #banner table tbody tr {
-    border-color: rgba(255, 255, 255, 0.25); }
-    #banner table tbody tr:nth-child(2n + 1) {
-      background-color: rgba(255, 255, 255, 0.075); }
-  #banner table th {
-    color: #ffffff; }
-  #banner table thead {
-    border-bottom-color: rgba(255, 255, 255, 0.25); }
-  #banner table tfoot {
-    border-top-color: rgba(255, 255, 255, 0.25); }
-  #banner table.alt tbody tr td {
-    border-color: rgba(255, 255, 255, 0.25); }
-  #banner .highlights .content {
-    background: #111111;
-    box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.025); }
-  #banner .testimonials .content {
-    background: #111111;
-    box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.025); }
-    #banner .testimonials .content .credit strong {
-      color: #dddddd; }
-  #banner > .inner {
-    -moz-transform: scale(1.0);
-    -webkit-transform: scale(1.0);
-    -ms-transform: scale(1.0);
-    transform: scale(1.0);
-    -moz-transition: opacity 1s ease, -moz-transform 1s ease;
-    -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
-    -ms-transition: opacity 1s ease, -ms-transform 1s ease;
-    transition: opacity 1s ease, transform 1s ease;
-    opacity: 1;
-    position: relative;
-    z-index: 3; }
-    #banner > .inner > :last-child {
-      margin-bottom: 0; }
-  #banner h1 {
-    font-size: 4rem;
-    margin-bottom: 1rem; }
-  #banner p {
-    font-size: 1.5rem; }
-  #banner a {
-    color: rgba(255, 255, 255, 0.5);
-    text-decoration: none; }
-    #banner a:hover {
-      color: #ffffff; }
-  #banner video {
-    -moz-transform: translateX(50%) translateY(50%);
-    -webkit-transform: translateX(50%) translateY(50%);
-    -ms-transform: translateX(50%) translateY(50%);
-    transform: translateX(50%) translateY(50%);
-    bottom: 50%;
-    height: auto;
-    min-height: 100%;
-    min-width: 100%;
-    overflow: hidden;
-    position: absolute;
-    right: 50%;
-    width: auto; }
-  #banner:before {
-    -moz-transition: opacity 3s ease;
-    -webkit-transition: opacity 3s ease;
-    -ms-transition: opacity 3s ease;
-    transition: opacity 3s ease;
-    -moz-transition-delay: 1.25s;
-    -webkit-transition-delay: 1.25s;
-    -ms-transition-delay: 1.25s;
-    transition-delay: 1.25s;
-    background: #111111;
-    content: '';
-    display: block;
-    height: 100%;
-    left: 0;
-    opacity: 0.45;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 1; }
-  #banner:after {
-    background: linear-gradient(135deg, #9ba3fa 0%, #111111 74%);
-    content: ' ';
-    display: block;
-    height: 100%;
-    left: 0;
-    opacity: 0.6;
-    position: absolute;
-    top: 0;
-    webkit-linear-gradientidth: 100%;
-    width: 100%;
-    z-index: 1; }
-  #banner.small {
-    height: 30vh !important;
-    min-height: 30vh; }
-  @media screen and (max-width: 1280px) {
-    #banner video {
-      display: none; } }
-  @media screen and (max-width: 736px) {
-    #banner {
-      height: auto !important;
-      min-height: 0;
-      padding: 4rem 2rem 4rem 2rem; }
-      #banner .inner {
-        width: 100%; }
-      #banner h1 {
-        font-size: 1.75rem;
-        margin-bottom: 0.5rem;
-        padding-bottom: 0; }
-      #banner p {
-        font-size: 1.25rem; }
-      #banner br {
-        display: none; }
-      #banner .button {
-        width: 100%; } }
-  @media screen and (max-width: 480px) {
-    #banner p {
-      font-size: 1rem; } }
-  body.is-preload #banner .inner {
-    -moz-transform: scale(0.99);
-    -webkit-transform: scale(0.99);
-    -ms-transform: scale(0.99);
-    transform: scale(0.99);
-    opacity: 0; }
-  body.is-preload #banner:before {
-    opacity: 1; }
+      box-shadow: 0 0 0 1px #9ba3fa; }  
 
 /* CTA */
 #cta {
@@ -2072,6 +1931,10 @@ ul.icons {
     color: #ffffff; }
   #cta a {
     color: #ffffff; }
+  #cta a:hover
+  {
+    color: black;
+  }
   #cta strong, #cta b {
     color: #ffffff; }
   #cta h1, #cta h2, #cta h3, #cta h4, #cta h5, #cta h6 {
@@ -2392,7 +2255,7 @@ body {
   padding-top: 3.25rem; }
   body:before {
     content: ' ';
-    background-image: url(../../images/bg.jpg);
+    background-image: url(../../images/cta01.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -2449,7 +2312,7 @@ body {
       #header > nav > a[href="#menu"]:before {
         -moz-osx-font-smoothing: grayscale;
         -webkit-font-smoothing: antialiased;
-        font-family: FontAwesome;
+
         font-style: normal;
         font-weight: normal;
         text-transform: none !important; }
@@ -2796,7 +2659,7 @@ body {
     #menu .close:before {
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
-      font-family: FontAwesome;
+      font-family: OpenSans-Regular;
       font-style: normal;
       font-weight: normal;
       text-transform: none !important; }
