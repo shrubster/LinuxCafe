@@ -1920,7 +1920,7 @@ ul.icons {
   background-color: #f8d964;
   color: #000000;
   background-attachment: fixed;
-  background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url(cta01.png);
+  background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25));
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
