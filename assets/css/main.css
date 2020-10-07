@@ -2224,8 +2224,7 @@ ul.icons {
     font-size: 0.8rem;
     opacity: 0.5;
     padding: 2rem 0;
-background-color: darkgrey;
-  color: white;
+    color: white;
     text-align: center; }
   @media screen and (max-width: 1280px) {
     #footer {
