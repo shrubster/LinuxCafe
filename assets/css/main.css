@@ -2070,7 +2070,7 @@ ul.icons {
 /* Footer */
 #footer {
   background-color: #111111;
-  color: rgba(255, 255, 255, 0.5);
+  color: white;
   padding: 8rem 0 6rem 0 ; }
   #footer input, #footer select, #footer textarea {
     color: #ffffff; }
@@ -2225,7 +2225,7 @@ ul.icons {
     opacity: 0.5;
     padding: 2rem 0;
 background-color: darkgrey;
-  color: #FFFFFF;
+  color: white;
     text-align: center; }
   @media screen and (max-width: 1280px) {
     #footer {
