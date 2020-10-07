@@ -4,15 +4,6 @@
     box-sizing: border-box;
 }
 
-:root {
-    /* You can declare custom expressions(variables) here */
-    /* --text-color: black;
-    --text-color-alt: white;
-    --banner-color: violet;
-    --cta-color: orange;
-    --bg-color: white; */
-}
-
 /* Ensure images display correctly */
 
 img {
