@@ -27,7 +27,7 @@ body {
     background-color: #ffffff;
     color: #444444;
     line-height: 1;
-    font-family: 'OpenSans-Regular';
+    font-family: 'NunitoSans-Regular';
     font-size: 1rem;
     line-height: 1.65;
 }
@@ -39,15 +39,15 @@ body {
 }
 
 @font-face {
-    font-family: 'OpenSans-Regular';
-    src: url('OpenSans-Regular.ttf');
+    font-family: 'NunitoSans-Regular';
+    src: url('NunitoSans-Regular.ttf');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 #newfont {
-    font-family: 'OpenSans-Regular';
+    font-family: 'NunitoSans-Regular';
 }
 
 a {
