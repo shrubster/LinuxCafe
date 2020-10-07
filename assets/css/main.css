@@ -234,8 +234,12 @@ hr {
 input, select, textarea {
   color: #555555; }
 
+header a {
+  color:white
+}
+
 a {
-  color: #E27200; }
+  color: #83480a; }
 
 strong, b {
   color: #555555; }
