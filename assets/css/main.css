@@ -58,6 +58,11 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1; }
 
+.banner-about {
+	font-size:1.25em;
+	color:white;
+}
+
 ol, ul {
   list-style: none; }
 
