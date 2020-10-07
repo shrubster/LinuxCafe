@@ -96,6 +96,7 @@ header img {
 
 a {
     text-decoration: underline;
+    color: #83480a;
 }
 
 a:hover {
@@ -139,6 +140,14 @@ a:hover {
     color: #000000;
     padding: 8rem 8rem 6rem 8rem;
     text-align: center;
+}
+
+.cta a {
+    color: white;
+}
+
+.cta a:hover {
+    color: black;
 }
 
 .cta h2 {
