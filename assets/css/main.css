@@ -63,6 +63,8 @@ body {
 	color:white;
 }
 
+
+
 ol, ul {
   list-style: none; }
 
@@ -233,7 +235,7 @@ pre {
 hr {
   border: 0;
   border-bottom: solid 1px;
-  margin: 2rem 0; }
+  margin: 1rem 0; }
   hr.major {
     margin: 4rem 0; }
 
