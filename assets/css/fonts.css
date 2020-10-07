@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'nunito';
+    src: url('../fonts/NunitoSans-Regular.ttf');
+}
+
+body {
+    font-family: 'nunito', Fallback, system-ui;
+    font-size: 13pt;
+}
