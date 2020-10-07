@@ -235,7 +235,7 @@ input, select, textarea {
   color: #555555; }
 
 a {
-  color: #6A6D95; }
+  color: #E27200; }
 
 strong, b {
   color: #555555; }
@@ -2222,7 +2222,6 @@ ul.icons {
   #footer .copyright {
     border-top: 1px solid;
     font-size: 0.8rem;
-    opacity: 0.5;
     padding: 2rem 0;
     color: white;
     text-align: center; }
