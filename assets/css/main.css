@@ -1,4 +1,4 @@
-@import url(OpenSans-Regular.ttf);
+/*@import url(OpenSans-Regular.ttf);*/
 /*
 	Industrious by TEMPLATED
 	templated.co @templatedco
@@ -115,6 +115,7 @@ body {
     src: url('OpenSans-Regular.ttf');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 #newfont{
