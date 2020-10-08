@@ -74,15 +74,20 @@ header img {
     text-align: center;
     min-height: 40rem;
     padding: 8rem 8rem 6rem 8rem;
+    font-size: larger;
 }
 
 .banner a {
     color: white;
 }
 
+.footer a {
+    color:white;
+}
+
 a {
     text-decoration: underline;
-    color: #83480a;
+    color: #83480;
 }
 
 a:hover {
@@ -129,7 +134,7 @@ a:hover {
 }
 
 .cta a {
-    color: white;
+    color: darkblue;
 }
 
 .cta a:hover {
@@ -137,7 +142,7 @@ a:hover {
 }
 
 .cta h2 {
-    color: white;
+    color: black;
 }
 
 footer {
