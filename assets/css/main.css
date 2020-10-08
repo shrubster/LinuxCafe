@@ -168,6 +168,9 @@ footer .thanks {
     .link-container {
         flex-direction: column;
     }
+    .links {
+        width: 80%;
+    }
     .banner {
         min-height: auto;
         padding: 2rem 2rem 2rem 2rem;
@@ -178,6 +181,9 @@ footer .thanks {
 }
 
 @media screen and (max-width: 800px) {
+    .links {
+        width: 100%;
+    }
     .cta {
         padding: 2rem 2rem 2rem 2rem;
     }
