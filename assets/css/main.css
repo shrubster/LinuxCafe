@@ -4,12 +4,6 @@
     box-sizing: border-box;
 }
 
-/* Ensure images display correctly */
-
-img {
-    display: block;
-}
-
 /* Correctly define multiple headers */
 
 :is(h1, h2, h3, h4, h5, h6) {
@@ -43,6 +37,7 @@ scale the site correctly in the current layout */
     flex-direction: column;
     height: 100vh;
     width: 1600px;
+    width: ;
 }
 
 /* Simple styling for the items */
@@ -77,7 +72,7 @@ header img {
     color: white;
     background-image: linear-gradient(purple, blue);
     text-align: center;
-    min-height: 35rem;
+    min-height: 40rem;
     padding: 8rem 8rem 6rem 8rem;
 }
 
@@ -102,7 +97,7 @@ a:hover {
     flex-direction: column;
     text-align: center;
     padding: 8rem 0 6rem 0;
-    width: 75rem;
+    width: 95%;
     margin: 0 auto;
 }
 
@@ -157,4 +152,26 @@ footer .thanks {
     flex-direction: column;
     text-align: center;
     padding: 3rem 0 3rem 0;
+}
+
+@media screen and (max-width: 1250px) {
+    .link-container {
+        flex-direction: column;
+    }
+    .banner {
+        min-height: auto;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+    .footer {
+        padding: 3rem 2rem 3rem 2rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .cta {
+        padding: 2rem 2rem 2rem 2rem;
+    }
+    .about {
+        padding: 1rem 0 1rem 0;
+    }
 }
