@@ -46,7 +46,7 @@ header {
     width: 100%;
     padding: 5px;
     text-align: right;
-    background-color: black;
+    background-color: #1A1A1A;
     color: white;
 }
 
@@ -70,7 +70,8 @@ header img {
     align-content: center;
     flex-direction: column;
     color: white;
-    background-image: linear-gradient(purple, blue);
+    background-color: black;
+    background-size: cover;
     text-align: center;
     min-height: 40rem;
     padding: 8rem 8rem 6rem 8rem;
