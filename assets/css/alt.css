@@ -16,8 +16,8 @@
 /* Put default values for the page here, override in respective calls */
 
 body {
-    background-color: black;
-    color: #fb8a97;
+    background-color: #181b21;
+    color: #ffffff;
     margin: auto;
 }
 
@@ -46,8 +46,8 @@ header {
     width: 100%;
     padding: 5px;
     text-align: right;
-    background-color: 111111;
-    color: #fb8a97;
+    background-color: #000111;
+    color: #ffffff;
 }
 
 /* link in header */
@@ -69,7 +69,7 @@ header img {
     justify-content: center;
     align-content: center;
     flex-direction: column;
-    color: #fb8a97;
+    color: #ffffff;
     background-image: linear-gradient(darkblue, black);
     text-align: center;
     min-height: 40rem;
@@ -78,7 +78,7 @@ header img {
 }
 
 .banner a {
-    color: #fb8a97;
+    color: cyan;
 }
 
 footer a {
@@ -86,7 +86,7 @@ footer a {
 }
 
 .footer a {
-    color:#fb8a97;
+    color:#ffffff;
 }
 
 a {
@@ -133,7 +133,7 @@ a:hover {
 
 .cta {
     background-color: #000111;
-    color: #fb8a97;
+    color: #ffffff;
     padding: 8rem 8rem 6rem 8rem;
     text-align: center;
 }
@@ -143,16 +143,16 @@ a:hover {
 }
 
 .cta a:hover {
-    color: #fb8a97;
+    color: #ffffff;
 }
 
 .cta h2 {
-    color: #fb8a97;
+    color: #ffffff;
 }
 
 footer {
     background-color: black;
-    color: #fb8a97;
+    color: #ffffff;
 }
 
 footer .thanks {
