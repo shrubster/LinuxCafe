@@ -37,7 +37,7 @@ scale the site correctly in the current layout */
     flex-direction: column;
     height: 100vh;
     width: 1600px;
-    width: ;
+    width: 95%;
 }
 
 /* Simple styling for the items */
